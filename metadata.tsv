@@ -1,4 +1,4 @@
-speechid	speechpath	speaker_id	review_score	transcript	category	speaker_gender	speaker_gender:1
+speechid	speechpath	speaker_id	review_score	transcript	category	speaker_gender	speaker_age
 0I2iIh7OSMdWhvb85tMp	audio/63a28877-988f-4f87-a6dd-f0d2b5c24944.webm	oeaNxrE0uxNSfoDpdrCYGBGC7uC3	42	അണ്ണാൻ മൂത്താലും മരം കേറ്റം മറക്കുമോ?	proverb	default	default
 0Gbc6JQLVd6ah2P5Nz0D	audio/3f6ec7ce-e480-49ba-b53f-29990a3918e7.webm	6FzGR8AJFJSEml6AIs55fEgJmqX2	30	പാണ്ടൻ നായുടെ പല്ലിനു ശൗര്യം പണ്ടേപോല ഫലിയ്‌ക്കുന്നില്ല.	proverb	default	default
 0PJKVqJsCFeIHKeeIgJ5	audio/1fa2ebd9-e49f-4d73-b4d0-6c8a69a88217.webm	oeaNxrE0uxNSfoDpdrCYGBGC7uC3	29	ചങ്ങലയ്ക്കു ഭ്രാന്തു പിടിച്ചാലോ?	proverb	default	default
