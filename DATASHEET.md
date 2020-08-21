@@ -19,11 +19,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 3. **What support was needed to make this dataset?**
 
-	*This project is entirely built on volunteer efforts from various language technology enthusiasts*
+	*This project is entirely built on volunteer efforts from various language technology enthusiasts.*
 
 4. **Any other comments?**
 
-	*The speech, transcription and its metadata are published under CC-BY-SA 4.0 License*
+	*The speech, transcription and its metadata are published under CC-BY-SA 4.0 License.*
 
 
 ## Composition
@@ -36,7 +36,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
-	*1541 speech samples*
+	*1541 speech samples. It corresponds to a duration of 1:38:16 hours.*
 
 3. **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g. geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g. to cover a more diverse range of instances, because instances were withheld or unavailable).
 
@@ -64,11 +64,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 9. **Are there any errors, sources of noise, or redundancies in the dataset?** If so, please provide a description.
 
-	*The speech data collection and review are crowd-sourced. No special effort has been taken up to verify the content for errors. We believe the review process should have helped to curate the content as noiseless as possible.*
+	*The speech data collection and review are crowd-sourced. No special effort has been taken up to verify the content for errors. We believe the review process should have helped to curate the speech as noiseless as possible.*
 
 10. **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g. websites, tweets, other datasets)?** If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g. licenses, fees) associated with any of the external resources that might apply to a future user? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.
 
-	*This is a subset of speech samples collected and reviewed in [MSC app](https://msc.smc.org.in). Those speech samples which has received atleast three positive review scores are published here. The complete speech data set in `.webm` format is available [here](https://gitlab.com/smc/msc). The original source as well as this data set are published under CC-BY-SA 4.0 License*
+	*This is a subset of speech samples collected and reviewed in [MSC app](https://msc.smc.org.in). Those speech samples which has received atleast three positive review scores are published in this repo. The complete speech data set in `.webm` format is available [here](https://gitlab.com/smc/msc). The original source as well as this data set are published under CC-BY-SA 4.0 License*
 
 11. **Does the dataset contain data that might be considered confidential (e.g. data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)?** If so, please provide a description.
 
@@ -105,11 +105,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 1. **How was the data associated with each instance acquired?** Was the data directly observable (e.g. raw text, movie ratings), reported by subjects (e.g. survey responses), or indirectly inferred/derived from other data (e.g. part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.
 
-	*The speech data is collected from volunteer users who read and record their speech through a [web application](https://msc.smc.org.in). The users optionally provide name, age and gender. There is no further verification.Sentences to read out are curated by MSC Admin. The speech samples are reviewed by other users.*
+	*The speech data is collected from volunteer contributors who read and record their speech through a [web application](https://msc.smc.org.in). The users optionally provide name, age and gender. There is no further verification. Sentences to read out are curated by MSC Admin. The speech samples are reviewed by other users.*
 
 2. **What mechanisms or procedures were used to collect the data (e.g. hardware apparatus or sensor, manual human curation, software program, software API)?** How were these mechanisms or procedures validated?
 
-	*The speech data is collected from volunteer users who read and record their speech through a [web application](https://msc.smc.org.in) using their personal devices. The recorded speech is reviewed by other users. The review score is also published.*
+	*The speech data is collected from volunteer users who read and record their speech through a [web application](https://msc.smc.org.in) using their personal devices. The recorded speech is reviewed (upvote and downvote gives a score of +1 and -1 respectively) by other users. The review score is also published.*
 
 3. **If the dataset is a sample from a larger set, what was the sampling strategy (e.g. deterministic, probabilistic with specific sampling probabilities)?**
 
@@ -162,7 +162,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 1. **Was any preprocessing/cleaning/labeling of the data done (e.g. discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?** If so, please provide a description. If not, you may skip the remainder of the questions in this section.
 
-	*The speech data is collected from volunteer users who read and record their speech through a [web application](https://msc.smc.org.in) using their personal devices. The recorded speech is reviewed by other users. The review score is also published. Those speech samples with at least three positive reviews are converted into `.wav` format with single channel 16 bit encoding at 48000 Hz sampling rate are made available  in this dataset.*
+	*The speech data is collected from volunteer users who read and record their speech through a [web application](https://msc.smc.org.in) using their personal devices. The recorded speech is reviewed by other users. The review score is also published. Those speech samples with at least three positive reviews are converted into `.wav` format with single channel 16 bit encoding at 48000 Hz sampling rate are made available in this dataset.*
 
 2. **Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (e.g. to support unanticipated future uses)?** If so, please provide a link or other access point to the "raw" data.
 
@@ -191,7 +191,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 3. **What (other) tasks could the dataset be used for?**
 
-	*Automatic Speech Recognition system development, Speaker gender and age identification*
+	*Automatic Speech Recognition system development, gender and age identification of speakers*
 
 4. **Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?** For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g. stereotyping, quality of service issues) or other undesirable harms (e.g. financial harms, legal risks) If so, please provide a description. Is there anything a future user could do to mitigate these undesirable harms?
 
@@ -216,7 +216,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 2. **How will the dataset will be distributed (e.g. tarball on website, API, GitHub)?** Does the dataset have a digital object identifier (DOI)?
 
-	*Shared via GitLab. There is no DOI to the dataset.*
+	*Shared via Gitlab. There is no DOI to the dataset.*
 
 3. **When will the dataset be distributed?**
 
