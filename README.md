@@ -38,5 +38,6 @@ CC-BY-SA 4.0 International License
 - `pip install flask`
 - `pip install mlphon`
 - `pip install pandas`
+- `pip install matplotlib`
 
 
