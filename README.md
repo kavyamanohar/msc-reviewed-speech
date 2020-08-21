@@ -31,4 +31,12 @@ Voice contributors names are listed in contributors.tsv
 
 CC-BY-SA 4.0 International License
 
+### To perform Data Analysis
+
+- Create a python virtual environment
+- `pip install jupyter`
+- `pip install flask`
+- `pip install mlphon`
+- `pip install pandas`
+
 
