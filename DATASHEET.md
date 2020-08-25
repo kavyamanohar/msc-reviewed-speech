@@ -211,11 +211,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 1. **Will the dataset be distributed to third parties outside of the entity (e.g. company, institution, organization) on behalf of which the dataset was created?** If so, please provide a description.
 
-	*It is made publicly available and is licensed under CC-BY-SA 4.0 International License.*
+	*It is made publicly available in [Gitlab](https://gitlab.com/smc/msc-reviewed-speech/-/releases/v1.0%252B20200825) and [SMC Release Page](https://releases.smc.org.in/msc-reviewed-speech/). It is licensed under CC-BY-SA 4.0 International License.*
 
 2. **How will the dataset will be distributed (e.g. tarball on website, API, GitHub)?** Does the dataset have a digital object identifier (DOI)?
 
-	*Shared via Gitlab. There is no DOI to the dataset.*
+	*Distributed by SMC [here](https://releases.smc.org.in/msc-reviewed-speech/). There is no DOI to the dataset.*
 
 3. **When will the dataset be distributed?**
 
