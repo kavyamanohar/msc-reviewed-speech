@@ -1,4 +1,4 @@
-This is the repository of a curated subset of speech samples collected using [MSC app](https://msc.smc.org.in/). Speech samples are selected on the criteria that they have at least 3 positive reviews. The original corpus of collected audios is available [here](https://gitlab.com/smc/msc/-/tree/master/audio)
+This is the repository of a curated subset of speech samples collected using [MSC app](https://msc.smc.org.in/). Speech samples are selected on the criteria that they have at least 3 positive reviews. The original corpus of collected audios is available [here](https://gitlab.com/smc/msc/-/tree/master/audio). The latest version of curated Malayalam Speech Corpus is hosted [here](https://releases.smc.org.in/msc-reviewed-speech/).
 
 ### Audio
 
