@@ -27,11 +27,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 ## Composition
 
-<!-- *Dataset creators should read through the questions in this section prior to any data collection and then provide answers once collection is complete. Most of these questions are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for specific tasks. The answers to some of these questions reveal information about compliance with the EU’s General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions.* -->
+*Dataset creators should read through the questions in this section prior to any data collection and then provide answers once collection is complete. Most of these questions are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for specific tasks. The answers to some of these questions reveal information about compliance with the EU’s General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions.*
 
 1. **What do the instances that comprise the dataset represent (e.g. documents, photos, people, countries)?** Are there multiple types of instances (e.g. movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.
 
-	*Speech in `.wav` format is the data. It is single channel audio with 16 bit encoding at 48000 Hz sampling rate. Each speech waveform is associated with a speech-id, speaker-id, filename, review-score, transcription in Malayalam script, sentence category, speaker-gender and speaker-agegroup. These meta-data are available as a tsv file.*
+	*Speech in raw audio format is the data. It is single channel audio with 16 bit encoding at 48000 Hz sampling rate. Each speech waveform is associated with a speech-id, speaker-id, filename, review-score, transcription in Malayalam script, sentence category, speaker-gender and speaker-agegroup. These meta-data are available as a tsv file.*
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
@@ -39,11 +39,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 3. **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g. geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g. to cover a more diverse range of instances, because instances were withheld or unavailable).
 
-	*This is a subset of speech samples collected and reviewed in [MSC app](https://msc.smc.org.in). Those speech samples which has received atleast three positive review scores are published here. The complete set in `.webm` format is available [here](https://gitlab.com/smc/msc)*
+	*This is a subset of speech samples collected and reviewed in [MSC app](https://msc.smc.org.in). Those speech samples which has received atleast three positive review scores are published here. The complete set in webm format is available [here](https://gitlab.com/smc/msc)*
 
 4. **What data does each instance consist of?** "Raw" data (e.g. unprocessed text or images) or features? In either case, please provide a description.
 
-	*Speech in `.wav` format is the data*
+	*Speech in raw audio format is the data*
 
 5. **Is there a label or target associated with each instance?** If so, please provide a description.
 
@@ -63,11 +63,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 9. **Are there any errors, sources of noise, or redundancies in the dataset?** If so, please provide a description.
 
-	*The speech data collection and review are crowd-sourced. No special effort has been taken up to verify the content for errors. We believe the review process should have helped to curate the speech as noiseless as possible.*
+	*The speech data collection and review are crowd-sourced. We believe the review process should have helped to curate the speech as noiseless as possible.*
 
 10. **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g. websites, tweets, other datasets)?** If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g. licenses, fees) associated with any of the external resources that might apply to a future user? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.
 
-	*This is a subset of speech samples collected and reviewed in [MSC app](https://msc.smc.org.in). Those speech samples which has received atleast three positive review scores are published in this repo. The complete speech data set in `.webm` format is available [here](https://gitlab.com/smc/msc). The original source as well as this data set are published under CC-BY-SA 4.0 License*
+	*This is a subset of speech samples collected and reviewed in [MSC app](https://msc.smc.org.in). Those speech samples which has received atleast three positive review scores are published in this repo. The complete speech data set in webm format is available [here](https://gitlab.com/smc/msc). The original source as well as this data set are published under CC-BY-SA 4.0 License*
 
 11. **Does the dataset contain data that might be considered confidential (e.g. data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)?** If so, please provide a description.
 
@@ -87,11 +87,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 15. **Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?** If so, please describe how.
 
-	*The name of natural persons may be identified by combining speech detailes and user details available in the original data source published [here](https://gitlab.com/smc/msc)*
+	*The name of natural persons may be identified by combining speech details and user details available in the original data source published [here](https://gitlab.com/smc/msc)*
 
 16. **Does the dataset contain data that might be considered sensitive in any way (e.g. data that reveals racial or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?** If so, please provide a description.
 
-	*No*
+	*No.*
 
 17. **Any other comments?**
 
@@ -100,7 +100,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 ## Collection
 
-<!-- *As with the previous section, dataset creators should read through these questions prior to any data collection to flag potential issues and then provide answers once collection is complete. In addition to the goals of the prior section, the answers to questions here may provide information that allow others to reconstruct the dataset without access to it.* -->
+*As with the previous section, dataset creators should read through these questions prior to any data collection to flag potential issues and then provide answers once collection is complete. In addition to the goals of the prior section, the answers to questions here may provide information that allow others to reconstruct the dataset without access to it.*
 
 1. **How was the data associated with each instance acquired?** Was the data directly observable (e.g. raw text, movie ratings), reported by subjects (e.g. survey responses), or indirectly inferred/derived from other data (e.g. part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.
 
@@ -132,11 +132,11 @@ Organization: *Swathanthra Malayalam Computing*
 
 9. **Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g. websites)?**
 
-	*Directly. Age and gender were optionally provided by contributors. https://msc.smc.org.in/faq *
+	*Directly. Age and gender were optionally provided by contributors. https://msc.smc.org.in/faq*
 
 10. **Were the individuals in question notified about the data collection?** If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.
 
-	*Yes. It is collected with consent from the users. https://msc.smc.org.in/faq *
+	*Yes. It is collected with consent from the users. https://msc.smc.org.in/faq*
 
 11. **Did the individuals in question consent to the collection and use of their data?** If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.
 
@@ -157,15 +157,15 @@ Organization: *Swathanthra Malayalam Computing*
 
 ## Preprocessing / Cleaning / Labeling
 
-<!-- *Dataset creators should read through these questions prior to any pre-processing, cleaning, or labeling and then provide answers once these tasks are complete. The questions in this section are intended to provide dataset consumers with the information they need to determine whether the “raw” data has been processed in ways that are compatible with their chosen tasks. For example, text that has been converted into a “bag-of-words” is not suitable for tasks involving word order.* -->
+*Dataset creators should read through these questions prior to any pre-processing, cleaning, or labeling and then provide answers once these tasks are complete. The questions in this section are intended to provide dataset consumers with the information they need to determine whether the “raw” data has been processed in ways that are compatible with their chosen tasks. For example, text that has been converted into a “bag-of-words” is not suitable for tasks involving word order.*
 
 1. **Was any preprocessing/cleaning/labeling of the data done (e.g. discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?** If so, please provide a description. If not, you may skip the remainder of the questions in this section.
 
-	*The speech data is collected from volunteer users who read and record their speech through a [web application](https://msc.smc.org.in) using their personal devices. The recorded speech is reviewed by other users. The review score is also published. Those speech samples with at least three positive reviews are converted into `.wav` format with single channel 16 bit encoding at 48000 Hz sampling rate are made available in this dataset.*
+	*The speech data is collected from volunteer contributors who read and record their speech through a [web application](https://msc.smc.org.in) using their personal devices. The recorded speech is reviewed by other contributors. The review score is also published. Those speech samples with at least three positive reviews are converted into raw audio format with single channel 16 bit encoding at 48000 Hz sampling rate and are made available in this dataset.*
 
 2. **Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (e.g. to support unanticipated future uses)?** If so, please provide a link or other access point to the "raw" data.
 
-	*The complete speech data set in `.webm` format is available [here](https://gitlab.com/smc/msc).*
+	*The complete speech data set in webm format is available [here](https://gitlab.com/smc/msc).*
 
 3. **Is the software used to preprocess/clean/label the instances available?** If so, please provide a link or other access point.
 
@@ -248,7 +248,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 2. **How can the owner/curator/manager of the dataset be contacted (e.g. email address)?**
 
-	*contact@smc.org.in*
+	*Contact be email: sakhi.kavya@gmail.com, contact@smc.org.in*
 
 3. **Is there an erratum?** If so, please provide a link or other access point.
 
@@ -256,7 +256,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 4. **Will the dataset be updated (e.g. to correct labeling errors, add new instances, delete instances)?** If so, please describe how often, by whom, and how updates will be communicated to users (e.g. mailing list, GitHub)?
 
-	*Yes. Updates will be published in GitLab*
+	*Yes. Updates will be published in Gitlab*
 
 5. **If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g. were individuals in question told that their data would be retained for a fixed period of time and then deleted)?** If so, please describe these limits and explain how they will be enforced.
 
