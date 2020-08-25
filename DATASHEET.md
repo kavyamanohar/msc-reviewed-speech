@@ -1,5 +1,4 @@
 # Datasheet: *SMC Malayalam Speech Corpus*
-This Data sheet is adapted from the template [here](https://github.com/AudreyBeard/Datasheets-for-Datasets-Template)
 
 Author: *Kavya Manohar*
 
@@ -274,3 +273,5 @@ Organization: *Swathanthra Malayalam Computing*
 8. **Any other comments?**
 
 	*No*
+
+This Data sheet is adapted from the template [here](https://github.com/JRMeyer/markdown-datasheet-for-datasets)
