@@ -34,7 +34,7 @@ Quick details:
 - 553 unique syllables
 - 48 unique phonemes
 
-For more detailed analysis see the python notebook provided here: `./analysis/EDA.ipynb`
+For more detailed analysis see the python notebook provided [here](https://gitlab.com/smc/msc-reviewed-speech/-/blob/master/analysis/EDA.ipynb)
 
 
 ### CONTRIBUTORS
