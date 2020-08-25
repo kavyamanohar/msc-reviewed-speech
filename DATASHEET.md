@@ -14,7 +14,7 @@ Organization: *Swathanthra Malayalam Computing*
 
 2. **Who created this dataset (e.g. which team, research group) and on behalf of which entity (e.g. company, institution, organization)**?
 
-	*This data set is a part of crowd sourced speech data collected and maintained by [Swathanthra Malayalam Computing](https://smc.org.in). You can find the speech collection web application [here](https://msc.smc.org.in) and its source code [here](https://gitlab.com/smc/msc)*
+	*This data set is a part of crowd sourced speech data collected and maintained by [Swathanthra Malayalam Computing](https://smc.org.in). You can find the speech collection web application [here](https://msc.smc.org.in) and its source code [here](https://gitlab.com/smc/msc). The first version of MSC Reviewed Speech corpus is based on the MSC database snapshot on 19th August 2020*
 
 3. **What support was needed to make this dataset?**
 

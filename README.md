@@ -1,4 +1,4 @@
-This is the repository of a subset of speech samples collected using MSC app (https://msc.smc.org.in/). Speech samples are selected on the criteria that they have at least 3 positive reviews.
+This is the repository of a subset of speech samples collected using MSC app (https://msc.smc.org.in/). Speech samples are selected on the criteria that they have at least 3 positive reviews. The first version of MSC Reviewed Speech Corpus is based on the MSC Database snapshot published on 19th August 2020.
 
 ### Audio
 
